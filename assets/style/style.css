@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+/* Header */
+
+header {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://unsplash.it/800/800");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header section:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 2rem;
+    /* margin-top: -40px; */
+}
+
+.divh1 {
+    font-size: 5rem;
+    margin-bottom: 30px;
+    /* color: black; */
+    text-shadow: 5px 5px rgba(255, 255, 255, 0.3);
+    -webkit-text-stroke: 3px black; /* width and color */
+
+    font-family: sans; color: white;
+}
+label {
+    -webkit-text-stroke: 0.4px black; /* width and color */
+
+    font-family: sans; color: white;
+}
+
+#formular {
+    /* margin-top: 80px; */
+    font-size: 2rem;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#news {
+    /* margin-top: 15px; */
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #ffcc008d;
+    border: 8px double black;
+    /* margin-bottom: 20px; */
+}
+
+#news h2 {
+    margin-top: 50px;
+}
+
+#news p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#news img {
+    margin-bottom: 20px;
+}
